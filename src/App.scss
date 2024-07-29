@@ -1,0 +1,34 @@
+@import './scss/bootstrap';
+
+body {
+    background-color: #003049;
+
+    #root {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+
+        main {
+            flex-grow: 1;
+            align-self: center;
+        }
+    }
+}
+
+
+#form {
+    width: 500px;
+    background-color: #fff;
+}
+
+.card {
+    width: 245px;
+    height: 245px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+#description {
+    width: 100%;
+}

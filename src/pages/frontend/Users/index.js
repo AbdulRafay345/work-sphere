@@ -8,7 +8,7 @@ export default function Users() {
   const generateTableRows = () => {
     return users.map((user, i) => (
       <tr key={i}>
-        <td scope='row'>{i + 1}</td>
+        <td>{i + 1}</td>
         <td>{user.name}</td>
         <td>{user.email}</td>
         <td>{user.user_id}</td>

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { useAuth } from '../../context/AuthContext'
 
 export default function Home() {
-  let users = JSON.parse(localStorage.getItem("users")) || []
   let { authState } = useAuth()
 
   const [numberUsers, setNumberUsers] = useState(0)
